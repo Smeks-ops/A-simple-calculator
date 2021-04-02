@@ -1,0 +1,109 @@
+body {
+  font-family: "MonterchiBook";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 30px;
+  background-color: #2f4353;
+  background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
+}
+
+#container {
+  width: 1000px;
+  height: 700px;
+  background-color: #e9bcb7;
+  background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+  margin: 20px auto;
+}
+
+#calculator {
+  width: 320px;
+  height: 520px;
+  background-color: antiquewhite;
+  margin: 0 auto;
+  top: 20px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 1px 4px 5px 0px rgba(93, 71, 90, 0.75);
+  -webkit-box-shadow: 1px 4px 5px 0px rgba(93, 71, 90, 0.75);
+  -moz-box-shadow: 1px 4px 5px 0px rgba(93, 71, 90, 0.75);
+}
+
+#result {
+  height: 120px;
+}
+
+#history {
+  text-align: right;
+  height: 20px;
+  margin: 0 20px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #c0c0c0;
+}
+
+#output {
+  text-align: right;
+  height: 60px;
+  margin: 10px 20px;
+  font-size: 30px;
+}
+#keyboard {
+  height: 400px;
+}
+.operator,
+.number,
+.empty {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  float: left;
+  border-radius: 20%;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.number,
+.empty {
+  background-color: antiquewhite;
+}
+
+.number,
+.operator {
+  cursor: pointer;
+}
+.operator:active,
+.number:active {
+  font-size: 13px;
+}
+
+button:nth-child(4) {
+  box-shadow: 1px 4px 5px 0px rgba(86, 51, 16, 0.75);
+  -webkit-box-shadow: 1px 4px 5px 0px rgba(86, 51, 16, 0.75);
+  -moz-box-shadow: 1px 4px 5px 0px rgba(86, 51, 16, 0.75);
+  font-size: 20px;
+}
+button:nth-child(8) {
+  box-shadow: 1px 4px 5px 0px rgba(86, 51, 16, 0.75);
+  -webkit-box-shadow: 1px 4px 5px 0px rgba(86, 51, 16, 0.75);
+  -moz-box-shadow: 1px 4px 5px 0px rgba(86, 51, 16, 0.75);
+  font-size: 20px;
+}
+button:nth-child(12) {
+  box-shadow: 1px 4px 5px 0px rgba(86, 51, 16, 0.75);
+  -webkit-box-shadow: 1px 4px 5px 0px rgba(86, 51, 16, 0.75);
+  -moz-box-shadow: 1px 4px 5px 0px rgba(86, 51, 16, 0.75);
+  font-size: 20px;
+}
+button:nth-child(16) {
+  box-shadow: 1px 4px 5px 0px rgba(86, 51, 16, 0.75);
+  -webkit-box-shadow: 1px 4px 5px 0px rgba(86, 51, 16, 0.75);
+  -moz-box-shadow: 1px 4px 5px 0px rgba(86, 51, 16, 0.75);
+  font-size: 20px;
+}
+button:nth-child(20) {
+  box-shadow: 1px 4px 5px 0px rgba(86, 51, 16, 0.75);
+  -webkit-box-shadow: 1px 4px 5px 0px rgba(86, 51, 16, 0.75);
+  -moz-box-shadow: 1px 4px 5px 0px rgba(86, 51, 16, 0.75);
+  font-size: 20px;
+}
